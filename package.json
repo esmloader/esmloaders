@@ -1,0 +1,16 @@
+{
+  "project": "ESM Loaders for NodeJS",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -ws",
+    "bump": "npm run bump -ws",
+    "clean": "npm run clean -ws",
+    "deploy": "npm run deploy -ws"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest"
+  }
+}

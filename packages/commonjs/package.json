@@ -1,0 +1,12 @@
+{
+  "name": "@esmloader/commonjs",
+  "version": "1.0.0",
+  "main": "lib/loader.js",
+  "scripts": {
+    "build": "tsc",
+    "bump": "npm version",
+    "clean": "tsc --build --clean",
+    "deploy": "npm publish",
+    "watch": "tsc --watch"
+  }
+}
